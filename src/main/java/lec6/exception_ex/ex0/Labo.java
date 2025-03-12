@@ -1,7 +1,7 @@
-package lec6.exception_ex;
+package lec6.exception_ex.ex0;
 
-import lec6.exception_ex.inner.Battery;
-import lec6.exception_ex.inner.ElectricPowerRobot;
+import lec6.exception_ex.ex0.inner.Battery;
+import lec6.exception_ex.ex0.inner.ElectricPowerRobot;
 
 public class Labo {
 

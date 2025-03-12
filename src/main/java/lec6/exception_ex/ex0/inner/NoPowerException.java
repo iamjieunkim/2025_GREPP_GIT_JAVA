@@ -1,4 +1,4 @@
-package lec6.exception_ex.inner;
+package lec6.exception_ex.ex0.inner;
 
 public class NoPowerException extends Exception{
 
