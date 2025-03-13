@@ -18,6 +18,16 @@ public class Factory {
         Hammer hammer = new Hammer();
         ToolBox<Hammer> hammerToolBox = new ToolBox<>(hammer);
         hammerToolBox.open();
+
+        //apple은 툴박스에는 들어갈 수 없고, 들고 다닐 수 만 있기 때문에
+        Apple apple = new Apple();
+        //apple.portable();
+
+        HugeGrinder hugeGrinder = new HugeGrinder();
+        ToolBox<HugeGrinder> hugeGrinderToolBox = new ToolBox<>(hugeGrinder);
+        hugeGrinderToolBox.open();
+
+
     }
 
     private static void test1() {
